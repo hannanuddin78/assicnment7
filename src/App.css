@@ -1,14 +1,14 @@
 .logo {
     font-family: revert;
   }
-  
-  div {
-    overflow-x: hidden;
-  }
+  h1.text-center, h2.text-center {
+    width: 100%;
+}
 
   .smh {
       margin-bottom: 30px;
   }
+
   
   .card {
     transition: .5s;

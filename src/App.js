@@ -4,9 +4,13 @@ import AllCourse from './components/AllCourse/AllCourse';
 
 function App() {
   return (
-    <div>
-        <h1 className="text-center">Welcome to Our Teaching Home</h1>
-        <AllCourse></AllCourse>
+    <div className="container-fluid">
+      <div className="row">
+        <div className="col-lg-12">
+          <h1 className="text-center">Welcome to Our Teaching Home</h1>
+          <AllCourse></AllCourse>
+        </div>
+      </div>
     </div>
   );
 }
